@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.header {
+  background-image: url("../images/header.jpg");
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.best-foods {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.food {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+.space-around {
+	justify-content: space-around;
+}
+
+.big-food {
+	max-width: 530px;
+	max-height: 350px;
+	background-size: 100% 100%;
+	margin-top: 30px;
+	position: relative;
+}
+
+.small-food {
+	max-width: 265px;
+	height: 265px;
+	background-size: 100% 100%;
+	margin-top: 30px;
+	position: relative;
+}
+
+.food img {
+	width: 100%;
+	height: 100%;
+}
+
+.food-description {
+	position: absolute; 
+	top: 0px; 
+	left: 0px; 
+	text-align: left; 
+	color: white; 
+	font-size: 2.5vmin; 
+	padding-left: 10px;
+}
+
+.food-description-bot {
+	position: absolute;
+	bottom: 0px;
+	color: white;
+	background-color: #3CB371;
+	width: 100%; 
+}
+
+hr {
+	width:20%;
+}
+
+.meals {
+	background-color: #D3D3D3;
+	padding-top: 40px;
+	margin-top: 30px;
+	padding-bottom: 50px;
+}
+
+.white-background {
+	margin-top: 40px;
+	background-color: white;
+	padding-bottom: 40px;
+}
+
+.meals-desc {
+	margin-top: 0px; 
+	padding-bottom: 20px;
+}
+
+.text-left-flex {
+	width: 100%; 
+	text-align: left; 
+	display: flex; 
+	flex-direction: row; 
+	justify-content: space-around;
+}
+
+.meals-price {
+	width: 20%;
+	text-align: center;
+}
+
+.meals-text {
+	width: 75%; 
+	padding-left: 25px;
+}
+
+.form-input {
+	width: 48%; 
+	border-radius: 4px; 
+	height: 35px;
+	padding-left: 10px;
+}
+
+.full-width {
+	width: 100%;
+}
+
+#form-news {
+	background-image: linear-gradient(#808080, #696969);
+	text-align: center; 
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+form {
+	width: 80%; 
+	margin: 0 auto; 
+	max-width: 600px; 
+	display: flex; 
+	flex-direction: column; 
+	justify-content: space-between;
+}
+
+.flex-row-between {
+	display: flex; 
+	justify-content: space-between; 
+}
+
+.form-space {
+	margin-top: 10px;
+}
+
+#form-submit {
+	border-radius: 4px; 
+	width: 100px; 
+	height: 35px; 
+	margin: 0 auto; 
+	margin-top: 10px;
+}
+
+@media screen and (max-width: 1194px) {
+	#stir-fry {
+		order: 1;
+	}
+	#burgers {
+		order: 2;
+	}
+	#stir-fry-desc {
+		order: 3;
+	}
+	#stir-fry-desc {
+		order: 4;
+	}
+}
