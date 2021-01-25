@@ -15,8 +15,9 @@
  .about_div {
 	display:flex; 
 	flex-direction: column; 
-	margin: 200px auto auto auto; 
+	margin: 0px auto 0 auto; 
 	max-width: 800px;
+	height: 75vh;
  }
  #about_title {
 	display:flex; 
@@ -63,6 +64,7 @@
 	justify-content: center;
 	margin: 50px 0px 0px 0px;
 	padding: 0px 0px 0px 15px;
+	min-height: 85vh;
  }
  .intro {
 	display:flex;
@@ -79,7 +81,8 @@
 	justify-content: flex-start;
  }
  .about {
-	margin: 200px auto;
+	border: 1px solid red;
+	margin: 0 0 200px 0;
 	max-width: 60%;
 	color: #4ac278;
  }
@@ -113,12 +116,7 @@
  .social_media>a {
 	margin: 0px 30px 0px 0px;
  }
- .desc_fix {
-	margin: -110px auto auto auto;
- }
- .desc_fix2 {
-	margin: -53px auto auto auto;
- }
+ 
  .tools_used {
 	margin: -90px auto auto auto;
 }
